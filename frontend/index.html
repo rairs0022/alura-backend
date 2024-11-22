@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev Back-End - Front-End</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Postar Imagem</h1>
+    <form id="uploadForm">
+        <input type="file" id="imagem" name="imagem" accept="image/png, image/jpeg" required>
+        <input type="text" id="alt" name="alt" placeholder="Texto alternativo" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Posts</h2>
+    <div id="posts"></div>
+
+    <script type="module" src="script.js"></script> <!-- Adicione type="module" aqui -->
+</body>
+</html>

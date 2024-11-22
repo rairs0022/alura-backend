@@ -1,0 +1,5 @@
+node_modules
+chave-api.txt
+.env
+usersenha.txt
+mongodb+srv://imersaobacken:zHZMtqRjsoz34SDf@cluster0.nvjia.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
